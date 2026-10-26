@@ -1,0 +1,21 @@
+:root { color-scheme: dark; }
+body { min-height: 100vh; }
+.site-header { position: sticky; top: 0; z-index: 10; }
+.site-header h1 { font-size: 1.45rem; margin: .5rem 0; }
+main { max-width: 1200px; margin: auto; padding: 1rem; }
+.table-wrap { overflow-x: auto; }
+.record-actions { white-space: nowrap; }
+.form-field { margin: .8rem 0; }
+.form-field label { display: block; margin-bottom: .25rem; }
+textarea.autogrow { min-height: 2.5rem; resize: vertical; }
+fieldset { margin: 1rem 0; }
+.child-row { border: 1px solid #555; padding: .75rem; margin: .5rem 0; }
+.icon-button { margin-right: .3rem; }
+.plain-link { color: inherit; text-decoration: none; }
+.pagination { display: flex; gap: .3rem; flex-wrap: wrap; margin: 1rem 0; }
+#go-top { position: fixed; right: 1rem; bottom: 1rem; display: none; z-index: 20; }
+@media (max-width: 600px) {
+  .site-header h1 { font-size: 1.2rem; }
+  .w3-bar .w3-bar-item { padding: 8px; }
+  .child-row { padding: .5rem; }
+}
